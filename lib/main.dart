@@ -16,7 +16,12 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(
-        body: SafeArea(child: ,),
+        body: SafeArea(
+          child: Center(
+              child: Text(
+            'Abbas Endari\'s Flutter Template',
+          )),
+        ),
       ),
     );
   }
